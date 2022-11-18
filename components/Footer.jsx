@@ -4,8 +4,9 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='bg-black p-12 flex justify-evenly md:flex-row flex-col gap-4 text-white'>
-        <div className='items-center flex justify-center'>
+    <footer className='bg-black p-8   '>
+      <div className='flex justify-between md:flex-row flex-col gap-4 text-white m-auto w-[95%]'>
+      <div className='items-center flex justify-center'>
         TECHDEV CYBER
         </div>
 
@@ -46,6 +47,7 @@ const Footer = () => {
             <span>Dalengatan 23A, Kalma </span>    
             </div>
         </div>
+      </div>
 
     </footer>
   )

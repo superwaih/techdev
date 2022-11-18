@@ -7,16 +7,20 @@ import { Navigation, Pagination} from 'swiper';
 
 
 import 'swiper/css';
+import "swiper/css/pagination";
 import 'swiper/css/navigation';
 
 const ServiceList = () => {
+  const pagination = {
+    clickable: true,
+  };
   return (
     <section className='bg-services bg-cover space-y-4 min-h-[40vh]'>
         <div className='w-[85%] m-auto '>
        <div className='text-center justify-center py-8 flex flex-col
        space-y-6
        items-center'>
-       <h2 className="flex gap-5 items-center  font-semibold text-black">
+       <h2 className="flex gap-5 items-center text-2xl font-bold text-black">
           <span className="h-4 w-4 bg-orange rounded-md"></span> Our Service List
         </h2>
         <p className='font-bold text-3xl'>What we’re offering</p>
@@ -26,7 +30,7 @@ const ServiceList = () => {
        
       modules={[ Navigation, Pagination]}
     
-      pagination={true}
+      pagination={pagination}
 
        breakpoints={{
         320: {
@@ -68,7 +72,6 @@ const ServiceList = () => {
 
         <Swiper
       modules={[ Navigation, Pagination]}
-      navigation={true}
       pagination={true}
 
        breakpoints={{

@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
+:root{
+    --swiper-navigation-size: 20px;
+}
 .servicesParent:first-child{
     border: 1px solid red;
 }
 html{
     scroll-behavior: smooth;
+}
+
+.swiper-pagination{
+    position: relative !important;
+
+}
+.swiper-pagination-bullet-active{
+    background: #FF5C00 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    bottom: 0 !important;
 }

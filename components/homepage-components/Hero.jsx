@@ -8,15 +8,15 @@ const Hero = () => {
     <nav className='flex py-4 m-auto w-[95%]'>
         <ul className='flex justify-between gap-3 md:gap-6 m-auto'>
             <Link href={"/"}>
-            <li>Home</li>
+            <li className='text-[15px] md: text-xl' >Home</li>
             </Link>
             <Link href={"/services"}>
-            <li>Services</li>
+            <li className='text-[15px] md: text-xl'>Services</li>
             </Link>
             <Link href={"/about"}>
-            <li>About</li>
+            <li className='text-[15px] md: text-xl'>About</li>
             </Link>
-            <li className='hidden md:inline-block'>Contact</li>
+            <li className='hidden md:inline-block text-[15px] md: text-xl'>Contact</li>
 
         </ul>
     </nav>
