@@ -6,24 +6,23 @@ import { AiOutlineCheck } from "react-icons/ai";
 const AboutBanner = () => {
   return (
     <div className="flex w-[85%] flex-col gap-4 md:flex-row relative justify-between py-12 m-auto ">
-      <div className="left flex-1 relative">
-        <div className="rounded-full absolute  flex flex-col items-center justify-center p-12 h-40 w-40 shadow-md border bg-white">
-          <div className="rounded-full w-32 p-8 h-32 border-4 border-dashed">
+      <div className="left flex-1">       
+        <div className="relative">
+        <div className="rounded-full absolute  flex flex-col items-center justify-center p-6 lg:p-12 h-24 w-24 lg:h-40 lg:w-40 shadow-md border bg-white">
+          <div className="rounded-full w-20 p-2 lg:p-8 h-20 border-4 border-dashed">
             <p className="font-bold text-[12px] uppercase text-center leading-5 text-orange">trusted by</p> 
             <p className="font-bold text-[12px] uppercase text-black text-center">6,506</p>
           </div>
         </div>
-        <div className="rounded-full bottom-[10%] right-0 lg:right-[30%] absolute  flex flex-col items-center justify-center p-12 h-28 w-28 md:h-32 md:w-32 shadow-md border bg-orange">
-          
-        </div>
-        <div>
           <Image
-            width={480}
-            height={480}
+            width={500}
+            height={500}
             objectFit="cover"
             src={RoundedImg}
             alt="Image"
           />
+        <div className="rounded-full bottom-0 right-0 md:right-[0%] lg:right-[30%] xl:right-[35%] absolute  flex flex-col items-center justify-center p-8 md:p-12 h-20 w-20 lg:h-32 lg:w-32 shadow-md border bg-orange">
+        </div>
         </div>
         <div>
 
@@ -35,14 +34,14 @@ const AboutBanner = () => {
           Cyber
         </h2>
         <p className="font-bold text-3xl">We provide the best web services</p>
-        <div className="flex gap-4 md:flex-row flex-col">
-          <div className="bg-orange p-3 md:p-4 lg:p-6 flex items-center gap-3 text-white rounded-md">
+        <div className="flex gap-4 lg:flex-row flex-col">
+          <div className="bg-orange p-3 md:p-3 lg:p-6 flex items-center gap-3 text-white rounded-md">
             <AiOutlineCheck className="text-2xl font-bold" />
             <p className="font-semibold">
               Solution for small & large businesses
             </p>
           </div>
-          <div className="bg-white p-3 md:p-4 lg:p-6 flex items-center border-black border font-bold text-black gap-4 rounded-md">
+          <div className="bg-white p-3 md:p-3 lg:p-6 flex items-center border-black border font-bold text-black gap-4 rounded-md">
             <AiOutlineCheck className="text-2xl font-bold" />
             <p>Solution for small & large businesses</p>
           </div>

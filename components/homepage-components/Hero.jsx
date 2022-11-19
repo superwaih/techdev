@@ -8,19 +8,19 @@ const Hero = () => {
     <nav className='flex py-4 m-auto w-[95%]'>
         <ul className='flex justify-between gap-3 md:gap-6 m-auto'>
             <Link href={"/"}>
-            <li className='text-[15px] md: text-xl' >Home</li>
+            <li className='text-[15px] md:text-xl' >Home</li>
             </Link>
             <Link href={"/services"}>
-            <li className='text-[15px] md: text-xl'>Services</li>
+            <li className='text-[15px] md:text-xl'>Services</li>
             </Link>
             <Link href={"/about"}>
-            <li className='text-[15px] md: text-xl'>About</li>
+            <li className='text-[15px] md:text-xl'>About</li>
             </Link>
             <li className='hidden md:inline-block text-[15px] md: text-xl'>Contact</li>
 
         </ul>
     </nav>
-   <div className='w-full md:w-[95%] m-auto space-y-8  px-20 py-8'>
+   <div className='w-full md:w-[95%] m-auto space-y-8 px-8 py-3  md:px-20 md:py-8'>
    <h1 className='font-bold mt-20 text-5xl md:text-8xl '>Smart Digital Agency</h1>
     <p className='mt-4 font-semibold w-full md:w-3/5 text-2xl'>
     We are a leading team for delivering the latest solutions for your business to stand it out apart from the rest.
