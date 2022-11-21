@@ -27,6 +27,21 @@ const ShowCase = ({type}) => {
                 alt=""
             />,
             <Image
+            width={300}
+            height={300}
+            objectFit="cover"
+            src={Image3}
+            alt=""
+        />,
+        <Image
+        width={300}
+        height={300}
+        objectFit="cover"
+        src={Image3}
+        alt=""
+        role="presentation"
+    />,
+            <Image
                 width={300}
                 height={300}
                 objectFit="cover"
@@ -54,6 +69,9 @@ const ShowCase = ({type}) => {
       items: 2
     },
     512:{
+      items: 2
+    },
+    1024:{
       items: 4
     }
   }
