@@ -7,12 +7,56 @@ import Image2 from "../imgs/swipeimgs/image2.png"
 import Image3 from "../imgs/swipeimgs/image3.png"
 import Image4 from "../imgs/swipeimgs/image4.png"
 
+import AliceCarousel from 'react-alice-carousel';
+import "react-alice-carousel/lib/alice-carousel.css";
+
 
 
 import 'swiper/css';
 import 'swiper/css/navigation'
 import 'swiper/css/navigation';
 const ShowCase = ({type}) => {
+  const handleDragStart = (e) => e.preventDefault();
+
+  const items = [
+    <Image
+                width={300}
+                height={300}
+                objectFit="cover"
+                src={Image1}
+                alt=""
+            />,
+            <Image
+                width={300}
+                height={300}
+                objectFit="cover"
+                src={Image2}
+                alt=""
+            />,
+            <Image
+                width={300}
+                height={300}
+                objectFit="cover"
+                src={Image3}
+                alt=""
+            />,
+            <Image
+                width={300}
+                height={300}
+                objectFit="cover"
+                src={Image4}
+                alt=""
+            />
+  ]
+
+  const responsive = {
+    0:{
+      items: 2
+    },
+    512:{
+      items: 4
+    }
+  }
   return (
     <section className='space-y-4 pb-8 min-h-[40vh]'>
         <div className='w-[85%] m-auto '>
@@ -25,8 +69,18 @@ const ShowCase = ({type}) => {
         </h2>
         <p className='font-bold text-3xl'>Work Showcase</p>
        </div>
+       <AliceCarousel mouseTracking 
+       infinite
+       autoPlayInterval={1000}
+       animationDuration={1000}
+       disableDotsControls
+       autoPlay
+       responsive={responsive}
+       
+       items={items} />
 
-       <Swiper
+
+       {/* <Swiper
       modules={[ Navigation, Pagination]}
       pagination={true}
       navigation={true}
@@ -98,7 +152,7 @@ const ShowCase = ({type}) => {
             </div>
          
          </SwiperSlide>
-      </Swiper>
+      </Swiper> */}
        
 
         </div>
