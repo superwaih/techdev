@@ -71,7 +71,7 @@ const ShowCase = ({type}) => {
     }
   }
   return (
-    <section className='space-y-4 pb-12 min-h-[40vh]'>
+    <section className='space-y-4 pb-12 min-h-[30vh]'>
         <div className='w-[85%] m-auto '>
 
 
