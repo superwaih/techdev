@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const Footer = () => {
   return (
-    <footer className='bg-black p-8   '>
+    <footer className='bg-[#242424] p-8   '>
       <div className='flex justify-between md:flex-row flex-col gap-4 text-white m-auto w-[95%]'>
-      <div className='items-center flex justify-center'>
-        TECHDEV CYBER
+      <div className='items-center font-bold text-[25px] md:text-[38px] flex justify-center'>
+        TECH<span className='text-orange'>DEV</span> CYBER
         </div>
 
        <div>

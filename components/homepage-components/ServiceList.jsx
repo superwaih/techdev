@@ -9,6 +9,7 @@ import { Navigation, Pagination} from 'swiper';
 import 'swiper/css';
 import "swiper/css/pagination";
 import 'swiper/css/navigation';
+import { services1, services2 } from '../../utils/data';
 
 const ServiceList = () => {
   const pagination = {
@@ -47,22 +48,14 @@ const ServiceList = () => {
         },
       }}
       >
-         <SwiperSlide>
-         <ServiceCard />
-            
-        </SwiperSlide>
-
-        <SwiperSlide>
-        <ServiceCard type={"orange"} />
+        {services1.map((data) => {
+          return(
+            <SwiperSlide>
+              <ServiceCard data={data} type={data.type} Icon={data.Icon} key={data.id} />
+            </SwiperSlide>
+          )
+        })}
        
-          
-        </SwiperSlide> 
-
-        <SwiperSlide>
-        
-        <ServiceCard />
-         
-         </SwiperSlide>
        
       </Swiper>
         
@@ -85,26 +78,15 @@ const ServiceList = () => {
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 10,
+          spaceBetween: 30,
         },
       }}
       >
-         <SwiperSlide>
-        <SpecialServiceCard />
-            
+       {services2.map((data) => (
+          <SwiperSlide>
+          <SpecialServiceCard data={data} type={data.type} Icon={data.Icon} key={data.id} />
         </SwiperSlide>
-
-        <SwiperSlide>
-        <SpecialServiceCard />
-       
-          
-        </SwiperSlide> 
-
-        <SwiperSlide>
-        
-        <SpecialServiceCard />
-         
-         </SwiperSlide>
+        ))}
        
       </Swiper>
         

@@ -4,10 +4,10 @@ import ServiceHeader from '../../components/services-component/ServiceHeader'
 import Footer from '../../components/Footer'
 import Contact from '../../components/homepage-components/Contact'
 import Feedback from '../../components/homepage-components/Feedback'
-import Faqs from '../../components/homepage-components/Faqs'
 import FaqBanner from '../../components/homepage-components/FaqBanner'
-import ShowcaseSlide from '../../components/ShowcaseSlide'
 import ShowCase from '../../components/homepage-components/ShowCase'
+import AgencyCardsSection from '../../components/services-component/AgencyCardsSection'
+import ServicesStack from '../../components/services-component/ServicesStack'
 
 const index = () => {
   return (
@@ -19,7 +19,9 @@ const index = () => {
       </Head>
       <main className='max-w-[1920px] flex flex-col'>
         <ServiceHeader type={"nobanner"} />
-        {/* <ShowcaseSlide /> */}
+        <AgencyCardsSection />
+        <ServicesStack />
+
         <ShowCase />
         <FaqBanner />
         <Feedback />

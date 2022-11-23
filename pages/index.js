@@ -20,13 +20,13 @@ export default function Home() {
       </Head>
 
       <>
-      <div className='max-w-[1920px]'>
+      <div className=''>
 
       <Hero />
       <AboutBanner />
       <Partners />
       <ServiceList />
-      <ShowCase />
+      <ShowCase type={""} />
       <FaqBanner />
       <Feedback />
       <Contact />
