@@ -7,7 +7,7 @@ const ServicesStack = () => {
     const[activeStack, setActiveStack] = useState("Website Design")
   return (
     <>
-    <section className='m-auto w-[82%] mb-4 flex flex-col md:flex-row gap-4 justify-evenly '>
+    <section className='m-auto w-[82%] mb-4 py-4 flex flex-col md:flex-row gap-4 justify-evenly '>
        <div className='w-full'>
        <Image
             width={0}
@@ -18,7 +18,7 @@ const ServicesStack = () => {
         />
        </div>
 
-        <div className='bg-[#DFDFDF] rounded-md max-w-2xl flex flex-col justify-between w-full py-6 space-y-4'>
+        <div className='bg-[#DFDFDF] rounded-md max-w-2xl flex flex-col justify-between w-full py-2 space-y-4'>
             {Stacks.map((data) => (
                 <p 
                 onClick={() => setActiveStack(data.title)}

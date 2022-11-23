@@ -8,6 +8,7 @@ import FaqBanner from '../../components/homepage-components/FaqBanner'
 import ShowCase from '../../components/homepage-components/ShowCase'
 import AgencyCardsSection from '../../components/services-component/AgencyCardsSection'
 import ServicesStack from '../../components/services-component/ServicesStack'
+import Business from '../../components/services-component/Business'
 
 const index = () => {
   return (
@@ -23,9 +24,8 @@ const index = () => {
         <ServicesStack />
 
         <ShowCase />
-        <FaqBanner />
-        <Feedback />
-        <Contact />
+        <Feedback services />
+        <Business />
         <Footer />
       </main>
     </div>

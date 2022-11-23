@@ -16,7 +16,9 @@ const Hero = () => {
             <Link href={"/about"}>
             <li className='text-[15px] md:text-xl'>About</li>
             </Link>
+            <Link href={"/contact"}>
             <li className='hidden md:inline-block text-[15px] md: text-xl'>Contact</li>
+            </Link>
 
         </ul>
     </nav>

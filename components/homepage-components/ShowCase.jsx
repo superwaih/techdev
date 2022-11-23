@@ -1,6 +1,4 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination} from 'swiper';
 import Image from 'next/image';
 import Image1 from "../imgs/swipeimgs/image1.png"
 import Image2 from "../imgs/swipeimgs/image2.png"

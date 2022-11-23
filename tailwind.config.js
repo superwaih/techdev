@@ -17,6 +17,10 @@ module.exports = {
         heromobile: "url('../components/imgs/heromobile.png')",
         agency: "url('../components/imgs/agency.png')",
         aboutbg: "url('../components/imgs/about.png')",
+        business: "url('../components/imgs/business.png')",
+        quality: "url('../components/imgs/quality.svg')",
+
+
 
 
 

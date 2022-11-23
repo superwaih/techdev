@@ -4,7 +4,7 @@ const AgencyCard = ({ type, data }) => {
   return (
     <>
       {type === "orange" ? (
-       <div className="flex max-w-[420px] justify-evenly shadow-xl mb-4 flex-col mt-32 rounded-2xl">
+       <div className="flex max-w-[420px] justify-evenly shadow-xl md:mb-4 flex-col md:mt-32 rounded-2xl">
          <div className="flex-1 ">
             <Image
              height={0} 
@@ -23,7 +23,7 @@ const AgencyCard = ({ type, data }) => {
         </div>
        </div>
       ) : (
-        <div className="flex max-w-[420px] justify-evenly shadow-xl flex-col mb-12 rounded-2xl">
+        <div className="flex max-w-[420px] justify-center md:justify-evenly shadow-xl flex-col md:mb-12 rounded-2xl">
          <div className="flex-1 ">
             <Image
              height={0} 

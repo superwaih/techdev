@@ -15,7 +15,9 @@ const AboutHeader = () => {
             <Link href={"/about"}>
             <li className='text-[15px] md:text-xl' >About</li>
             </Link>
-            <li className='hidden text-[15px] md: text-xl md:inline-block'>Contact</li>
+             <Link href={"/contact"}>
+            <li className='hidden md:inline-block text-[15px] md: text-xl'>Contact</li>
+            </Link>
 
         </ul>
     </nav>
