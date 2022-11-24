@@ -7,18 +7,18 @@ const ServicesStack = () => {
     const[activeStack, setActiveStack] = useState("Website Design")
   return (
     <>
-    <section className='m-auto w-[82%] mb-4 py-4 flex flex-col md:flex-row gap-4 justify-evenly '>
-       <div className='w-full'>
+    <section className='md:w-[80%] mb-4 py-4 justify-between flex flex-col md:flex-row gap-4 '>
+       <div className=''>
        <Image
-            width={0}
-            height={0}
+            width={700}
+            height={700}
             objectFit="cover"
             src={Image1}
             alt=""
         />
        </div>
 
-        <div className='bg-[#DFDFDF] rounded-md max-w-2xl flex flex-col justify-between w-full py-2 space-y-4'>
+        <div className='bg-[#DFDFDF] max-w-[550px] rounded-md flex flex-col justify-between w-full py-2 space-y-4'>
             {Stacks.map((data) => (
                 <p 
                 onClick={() => setActiveStack(data.title)}
@@ -30,7 +30,8 @@ const ServicesStack = () => {
 
         </div>
     </section>
-    <div className='m-auto w-[82%] mb-4 flex flex-col md:flex-row gap-4 justify-evenly '>
+
+    <div className='mb-4 md:w-[80%] flex flex-col md:flex-row gap-4 justify-between '>
     {StacksDesc.map((data) => (
                 <DisplayDetail active={activeStack} data={data} />
             ))}

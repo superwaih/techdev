@@ -5,12 +5,12 @@ import { AiOutlineCheck } from "react-icons/ai";
 
 const AboutBanner = () => {
   return (
-    <div className="flex w-[85%] flex-col gap-4 md:flex-row relative justify-between py-12 m-auto ">
+    <div className="flex w-[80%]  flex-col gap-4 md:flex-row relative justify-between py-12 m-auto ">
       <div className="left flex-1">       
         <div className="relative">
         <div className="rounded-full absolute  flex flex-col items-center justify-center p-6 lg:p-12 h-24 w-24 lg:h-40 lg:w-40 shadow-md border bg-white">
           <div className="rounded-full md:w-30 p-2 lg:p-8 md:h-30 border-4 border-dashed">
-            <p className="font-bold text-[12px] uppercase text-center leading-5 text-orange">trusted by</p> 
+            <p className="font-bold text-[12px]  uppercase text-center leading-5 text-orange">trusted by</p> 
             <p className="font-bold text-[12px] uppercase text-black text-center">6,506</p>
           </div>
         </div>
@@ -20,7 +20,7 @@ const AboutBanner = () => {
             src={RoundedImg}
             alt="Image"
           />
-        <div className="rounded-full bottom-0 right-0 md:right-[0%] lg:right-[30%] xl:right-[35%] absolute  flex flex-col items-center justify-center p-8 md:p-12 h-20 w-20 lg:h-32 lg:w-32 shadow-md border bg-orange">
+        <div className="rounded-full bottom-0 right-0 md:right-[0%] lg:right-[30%] 2xl:right-[55%] absolute  flex flex-col items-center justify-center p-8 md:p-12 h-20 w-20 lg:h-32 lg:w-32 shadow-md border bg-orange">
         </div>
         </div>
         <div>

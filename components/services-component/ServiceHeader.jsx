@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const ServiceHeader = () => {
   return (
-    <div className="bg-agency bg-cover flex mb-8 flex-col items-center w-full h-fit min-h-[60vh] bg-center  bg-no-repeat">
+    <div className="bg-agency bg-cover flex mb-8 flex-col items-center w-full h-fit min-h-[40vh] bg-center  bg-no-repeat">
     <nav className='flex py-4  text-orange font-bold'>
         <ul className='flex justify-between gap-3 md:gap-6 m-auto'>
             <Link href={"/"}>

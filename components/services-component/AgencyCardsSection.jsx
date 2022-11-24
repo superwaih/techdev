@@ -14,7 +14,7 @@ const AgencyCardsSection = () => {
         clickable: true,
       };
   return (
-    <div className='m-auto w-[85%]'>
+    <div className=''>
     <Swiper
        
        modules={[ Navigation, Pagination]}

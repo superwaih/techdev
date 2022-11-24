@@ -10,8 +10,8 @@ const DisplayDetail = ({active, data}) => {
     <>
      {
         active === data.title && (
-           <div className='flex w-full justify-between md:flex-row'>
-             <div className='py-8 max-w-2xl space-y-4'>
+           <div className='w-full flex justify-between md:flex-row'>
+             <div className='py-8 w-full flex-1  space-y-4'>
                 <h3 className='font-bold text-2xl'>
                 {data.title}
                 </h3>
@@ -29,9 +29,9 @@ const DisplayDetail = ({active, data}) => {
                 </ul>
                 <p className='font-semibold'>{data.endingText}</p>
             </div>
-            <div className='md:flex hidden  gap-8 flex-col'>
+            <div className='md:flex w-full flex-1 hidden  gap-8 flex-col'>
                 <Image
-                    width={200}
+                    width={300}
                     height={200}
                     src={Image1}
                     alt=""
