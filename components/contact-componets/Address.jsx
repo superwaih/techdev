@@ -7,7 +7,7 @@ const Address = () => {
       <div className="items-center py-6 font-bold text-[25px] md:text-[38px] flex justify-center">
         Contact TECH<span className="text-orange">DEV</span> CYBER
       </div>
-      <div className="contact w-[85%] pb-8 justify-between flex md:flex-row flex-col  m-auto gap-4">
+      <div className="contact w-[85%] 2xl:w-[65%] pb-8 justify-between flex md:flex-row flex-col  m-auto gap-4">
       <div className="flex-1 flex justify-start w-full">
           <Image
             width={300}

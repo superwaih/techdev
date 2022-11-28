@@ -2,7 +2,7 @@ import React from 'react'
 
 const SendMessage = () => {
   return (
-    <div className="contact-form m-auto w-[85%] flex space-y-4 flex-col flex-1">
+    <div className="contact-form m-auto w-[85%] 2xl:w-[65%] flex space-y-4 flex-col flex-1">
     <div className="flex gap-3 flex-col md:flex-row justify-between w-full">
       <input
        className='bg-[#C9C9C9] w-full border-[#FF5C00] border rounded-md p-3 placeholder:font-bold placeholder:text-[#595959]' 
