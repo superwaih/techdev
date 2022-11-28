@@ -3,7 +3,7 @@ import Image from 'next/image'
 import image1 from "../imgs/swipeimgs/image1.png"
 const ChatBox = () => {
   return (
-    <div className='m-auto flex flex-col md:flex-row pb-12 md:pb-24  w-[85%]'>
+    <div className='m-auto flex flex-col md:flex-row pb-20 md:pb-32  w-[85%]'>
         <div className='bg-black flex-1 text-white py-12 rounded-md
         px-12 space-y-8'>
             <div className='font-bold text-xl md:text-3xl' >
