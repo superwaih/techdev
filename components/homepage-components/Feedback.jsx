@@ -12,8 +12,8 @@ const Feedback = ({services}) => {
             <span className="h-4 w-4 bg-orange rounded-md"></span> Clients
             Feedback
           </h2>
-          <p className="font-bold text-3xl">What they are talking about us</p>
-          <button className= {services ? "bg-black border w-3/5 h-20 8 px-16  rounded-[48px]" : "border-orange border w-3/5 h-20 8 px-16 bg-orange rounded-[48px]"} ></button>
+          <p className="font-bold text-3xl">What they are saying about us</p>
+          <button className= {services ? "bg-black border w-3/5 h-20 8 px-16  rounded-[48px]" : "border-orange border w-3/5 h-20  px-16 bg-orange rounded-[48px]"} ></button>
         </div>
         <div className="flex-1 py-8 space-y-5">
           <div className="images flex gap-4">

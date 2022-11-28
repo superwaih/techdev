@@ -1,15 +1,23 @@
 import React from "react";
 import Image from "next/image";
-import image1 from "../imgs/swipeimgs/image1.png";
+import image1 from "../imgs/map.png";
 const Address = () => {
   return (
     <>
-      <div className="items-center font-bold text-[25px] md:text-[38px] flex justify-center">
+      <div className="items-center py-6 font-bold text-[25px] md:text-[38px] flex justify-center">
         Contact TECH<span className="text-orange">DEV</span> CYBER
       </div>
       <div className="contact w-[85%] pb-8 justify-between flex md:flex-row flex-col  m-auto gap-4">
-        <div className=" w-full flex-1 py-8 flex flex-col space-y-6">
-          <p className="font-bold text-3xl">Get in touch with the agency</p>
+      <div className="flex-1 flex justify-start w-full">
+          <Image
+            width={300}
+            height={300}
+            src={image1}
+            alt=""
+          />
+        </div>
+        <div className=" w-full flex-1 flex flex-col space-y-6">
+          <p className="font-bold text-3xl md:text-5xl">Get in touch with the agency</p>
           <div className="flex flex-col md:flex-row">
             <div className="box p-2 flex-1">
               <p className="font-semibold">
@@ -30,14 +38,7 @@ const Address = () => {
             </div>
           </div>
         </div>
-        <div className="flex-1  w-full">
-          <Image
-            width={400}
-            height={400}
-            src={image1}
-            alt=""
-          />
-        </div>
+       
       </div>
     </>
   );

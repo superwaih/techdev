@@ -52,7 +52,7 @@ techdev@gmail.com
 
     
     />
-    <button className='bg-orange font-bold w-full md:w-1/2 border py-4 px-12 text-white rounded-[48px]'>Send a Message</button>
+    <button className='bg-orange duration-300 hover:text-black hover:border-2 hover:border-orange hover:bg-inherit font-bold w-full md:w-1/2 border py-4 px-12 text-white rounded-[48px]'>Send a Message</button>
 
       
     </div>

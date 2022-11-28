@@ -9,16 +9,16 @@ const Hero = () => {
    <nav className='flex py-4 items-center justify-center w-full'>
         <ul className='flex justify-between gap-3 md:gap-6 m-auto'>
             <Link href={"/"}>
-            <li className='text-[15px] md:text-xl lg:text-4xl' >Home</li>
+            <li className='text-[15px] hover:text-orange md:text-xl lg:text-2xl 2xl:text-3xl' >Home</li>
             </Link>
             <Link href={"/services"}>
-            <li className='text-[15px] md:text-xl lg:text-4xl'>Services</li>
+            <li className='text-[15px] hover:text-orange md:text-xl lg:text-2xl 2xl:text-3xl'>Services</li>
             </Link>
             <Link href={"/about"}>
-            <li className='text-[15px] md:text-xl lg:text-4xl'>About</li>
+            <li className='text-[15px] hover:text-orange md:text-xl lg:text-2xl 2xl:text-3xl'>About</li>
             </Link>
             <Link href={"/contact"}>
-            <li className='hidden md:inline-block text-[15px] lg:text-4xl md:text-xl'>Contact</li>
+            <li className='hidden md:inline-block hover:text-orange text-[15px] md:text-xl lg:text-2xl 2xl:text-3xl'>Contact</li>
             </Link>
 
         </ul>
@@ -28,7 +28,7 @@ const Hero = () => {
     <p className='mt-4 font-semibold w-full md:w-3/5 max-w-lg leading-20 text-2xl'>
     We are a leading team for delivering the latest solutions for your business to stand it out apart from the rest.
     </p>
-    <button className='border-orange border md:w-1/4 px-8 py-4 md:px-12 text-orange rounded-[48px]'>Consult Now</button>
+    <button className='border-orange  hover:text-white hover:bg-orange border md:w-1/4 px-8 py-4 md:px-12 text-orange rounded-[48px]'>Consult Now</button>
    </div>
    </div>
 

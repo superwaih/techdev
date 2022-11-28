@@ -92,7 +92,7 @@ const Team = () => {
   return (
     <section className='py-8'>
        <div className='flex flex-col p-8 items-center justify-center'>
-        <h3 className='font-bold text-3xl text-center'>Our Mission</h3>
+        <h3 className='font-bold text-3xl text-center'>Our Teams</h3>
         <p className='text-[#FF5C00] max-w-[1200px] text-center font-bold text-xl'>Meet Our Experts</p>
     </div>
     <div className='w-[85%] m-auto space-y-6'>

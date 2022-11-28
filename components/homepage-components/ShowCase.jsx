@@ -17,44 +17,59 @@ const ShowCase = ({type}) => {
   const handleDragStart = (e) => e.preventDefault();
 
   const items = [
-    <Image
-                width={300}
-                height={300}
-                src={Image1}
-                alt=""
-            />,
-            <Image
-            width={300}
-            height={300}
-            src={Image3}
-            alt=""
-        />,
-        <Image
-        width={300}
-        height={300}
-        
-        src={Image3}
-        alt=""
-        role="presentation"
-    />,
-            <Image
-                width={300}
-                height={300}
-                src={Image2}
-                alt=""
-            />,
-            <Image
-                width={300}
-                height={300}
-                src={Image3}
-                alt=""
-            />,
-            <Image
+    <div className='m-2'>
+      <Image
+                  width={300}
+                  height={300}
+                  src={Image1}
+                  alt=""
+              />
+    </div>,
+            <div className='m-2'>
+
+              <Image
+              width={300}
+              height={300}
+              src={Image3}
+              alt=""
+          />
+            </div>,
+        <div className='m-2'>
+
+          <Image
+          width={300}
+          height={300}
+          
+          src={Image3}
+          alt=""
+          role="presentation"
+      />
+        </div>,
+    <div className='m-2'>
+      <Image
+          width={300}
+          height={300}
+          src={Image2}
+          alt=""
+      />
+
+    </div>,
+            <div className='m-2'>
+              <Image
+                  width={300}
+                  height={300}
+                  src={Image3}
+                  alt=""
+              />
+            </div>,
+           <div className='m-2'>
+             <Image
                 width={300}
                 height={300}
                 src={Image4}
                 alt=""
             />
+           </div>
   ]
 
   const responsive = {

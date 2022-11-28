@@ -6,6 +6,7 @@ import Contact from '../components/homepage-components/Contact'
 import FaqBanner from '../components/homepage-components/FaqBanner'
 import Feedback from '../components/homepage-components/Feedback'
 import Hero from '../components/homepage-components/Hero'
+import NewFeedback from '../components/homepage-components/NewFeedback'
 import Partners from '../components/homepage-components/Partners'
 import ServiceList from '../components/homepage-components/ServiceList'
 import ShowCase from '../components/homepage-components/ShowCase'
@@ -28,8 +29,8 @@ export default function Home() {
       <ServiceList />
       <ShowCase type={""} />
       <FaqBanner />
-      <Feedback />
-      <Contact />
+      <NewFeedback />
+      {/* <Contact /> */}
       <Footer />
       </div>
       </>

@@ -7,6 +7,7 @@ import AboutHeader from '../../components/about-components/AboutHeader'
 import SendMessage from '../../components/contact-componets/SendMessage'
 import Address from '../../components/contact-componets/Address'
 import Footer from '../../components/Footer'
+import ChatBox from '../../components/contact-componets/ChatBox'
 const index = () => {
   return (
     <div>
@@ -16,18 +17,10 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className='space-y-5 '>
-        <AboutHeader />
+      <AboutHeader />
        <Address />
+       <ChatBox />
 
-       <div className='p-12 grid place-content-center '>
-       <Image
-          width={1000}
-          height={1000}
-          objectFit="cover"
-          src={Map}
-          alt=""
-        />
-       </div>
        <SendMessage />
 
 

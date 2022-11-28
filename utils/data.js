@@ -97,12 +97,6 @@ export const StacksDesc = [
         title: "Website Design",
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        perks: [
-            "Lorem Ipsum has been the industry's standard dummy",
-            "Lorem Ipsum has been the industry's standard dummy",
-            "Lorem Ipsum has been the industry's standard dummy",
-            "Lorem Ipsum has been the industry's standard dummy",
-        ],
         endingText: "Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry."
 
 
