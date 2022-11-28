@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const SpecialAgencyCard = ({data, margin}) => {
   return (
-    <div className={`flex max-w-[420px] justify-evenly shadow-xl mb-4 flex-col rounded-2xl mt-${margin}`  }>
+    <div className={`flex max-w-[420px] justify-evenly cursor-pointer hover:scale-105 duration-300 shadow-xl mb-4 flex-col rounded-2xl mt-${margin}`  }>
          <div className="flex-1 ">
             <Image
              height={0} 

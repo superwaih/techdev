@@ -21,7 +21,7 @@ const ServicesStack = () => {
             alt=""
         />
        </div>
-       <div className='bg-[#DFDFDF] w-[400px] max-w-[550px]  rounded-md flex flex-col justify-between py-2 space-y-4'>
+       <div className='bg-[#DFDFDF] md:w-[400px] max-w-[550px]  rounded-md flex flex-col justify-between py-2 space-y-4'>
             {Stacks.map((data) => (
               <a href={`#${data.href}`}>
                   <p 

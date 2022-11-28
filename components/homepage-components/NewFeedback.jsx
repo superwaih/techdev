@@ -120,7 +120,7 @@ const NewFeedback = ({services}) => {
   }
   return (
     <section className={services ? "bg-[#F0F0F0] space-y-4" :"space-y-4 bg-white"} >
-      <div className="w-[85%] m-auto flex py-4 justify-evenly md:flex-row flex-col">
+      <div className="w-[85%] m-auto flex py-4 justify-evenly flex-col md:flex-row">
         <div className=" flex-1  py-8 flex flex-col space-y-3">
           <h2 className="flex gap-3 items-center  font-semibold text-black">
             <span className="h-4 w-4 bg-orange rounded-md"></span> Clients
