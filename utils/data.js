@@ -67,27 +67,38 @@ export const Stacks = [
     {
         id: 1,
         title: "Website Design",
+        href:"webdesign"
+        
 
     },
     {
         id: 2,
         title: "Website Development",
+        href:"webdev"
+
     },
     {
         id: 3,
         title: "Application Development",
+        href:"appdev"
+
     },
     {
         id: 4,
         title: "UI UX Design",
+        href:"uiux"
+
     },
     {
         id: 5,
         title: "CopyWriting",
+        href:"copywrite"
     },
     {
         id: 6,
         title: "SEO",
+        href:"seo",
+
     },
 ]
 
@@ -95,6 +106,8 @@ export const StacksDesc = [
     {
         id: 1,
         title: "Website Design",
+        href:"webdesign",
+
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         endingText: "Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry."
@@ -104,6 +117,8 @@ export const StacksDesc = [
     {
         id: 2,
         title: "Website Development",
+        href:"webdev",
+
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         perks: [
@@ -118,6 +133,8 @@ export const StacksDesc = [
     {
         id: 3,
         title: "Application Development",
+        href:"appdev",
+
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         perks: [
@@ -132,6 +149,8 @@ export const StacksDesc = [
     {
         id: 4,
         title: "UI UX Design",
+        href:"uiux",
+
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. of the printing and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         perks: [
@@ -146,6 +165,8 @@ export const StacksDesc = [
     {
         id: 5,
         title: "CopyWriting",
+        href:"copywrite",
+
         content: "App Development Need someIs your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry. thing changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         perks: [
@@ -160,6 +181,8 @@ export const StacksDesc = [
     {
         id: 6,
         title: "SEO",
+        href:"seo",
+
         content: "App Development Need something changed or is there something not quite working the way you envisaged? Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy  Is your van a little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and typesetting industry.text of the printing and typesetting industry.",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         perks: [
